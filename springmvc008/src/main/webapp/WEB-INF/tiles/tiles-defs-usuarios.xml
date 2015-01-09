@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd"> 
+
+<tiles-definitions>
+
+	<definition name="app.usuarios.listado"  extends="app.templatePrincipal">
+		<put-attribute name="titulo" value="usuario.titulo.listado" />
+		<put-attribute name="contenido" value="/WEB-INF/jsp/app/usuarios/listadoUsuarios.jsp" />		
+	</definition>
+	
+	<definition name="app.usuarios.crear"  extends="app.templatePrincipal">
+		<put-attribute name="titulo" value="usuario.titulo.nuevo" />
+		<put-attribute name="contenido" value="/WEB-INF/jsp/app/usuarios/nuevoUsuario.jsp" />			
+	</definition>
+	
+	<definition name="app.usuarios.detalle"  extends="app.templatePrincipal">
+		<put-attribute name="titulo" value="usuario.titulo.detalle" />
+		<put-attribute name="contenido" value="/WEB-INF/jsp/app/usuarios/detalleUsuario.jsp" />			
+	</definition>
+    
+	
+</tiles-definitions>
